@@ -1,3 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("1711092162330.jpg");
+    background-size: cover;
+}
 
+.cantionar{
+    height: 390px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+}
 
+.img{
+    height: 180px;
+    width: 180px;
+    background-image: url("1711091364070.jpg");
+    background-size: cover;
+    margin: 30px;
+    position: relative;
+    left: 5px;
+}
 
+.img:hover{
+    border-radius: 10px;
+}
+
+h1, p{
+    text-align: center;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
